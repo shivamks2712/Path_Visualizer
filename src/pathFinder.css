@@ -1,0 +1,17 @@
+.grid-row{
+    display: flex;
+    width: fit-content;
+  
+}
+.grid-box{
+    width: fit-content;
+    margin: 35px auto;
+}
+.btn-group.actionBtn{
+    width:60%;
+    min-width: 300px;
+    margin: 50px auto ;
+}
+#root{
+    text-align: center;
+}
