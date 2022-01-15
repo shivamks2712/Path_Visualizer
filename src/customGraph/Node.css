@@ -84,7 +84,7 @@
 .btnbar{ 
     margin: 0px !important;
     padding: 6px 0px ;
-    width: 100vw;
+    min-width: 100vw;
     background-color: rgb(17, 119, 106);
     border: 2px solid black;
 }
