@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shivamks2712/Path_Visualizer.git/precache-manifest.923069db93db67c3fa4e1ec60cc301b1.js"
+  "/Path_Visualizer/precache-manifest.20713ab3044e0c75d90a13ae0cbcbca4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/shivamks2712/Path_Visualizer.git/index.html", {
+workbox.routing.registerNavigationRoute("/Path_Visualizer/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
