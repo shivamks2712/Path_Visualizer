@@ -1,10 +1,11 @@
 import React from "react";
-import PathFinder from "./PathFinder";
-// import Navbar from "./Navbar";
+import CustomGraph from './customGraph/grids'
+
 
 export default function App (){
    return <>
-   <PathFinder/>
+   <CustomGraph/>
+   {/* <PathFinder/> */}
    </> 
     
 }

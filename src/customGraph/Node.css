@@ -1,0 +1,124 @@
+/*  NODE DESIGNING */
+
+.node {
+    width:  27px;
+    height: 27px;
+    border: 1px solid black;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: black;
+}
+.nodeStart{
+    border: 1px solid black;
+    background-color: green;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.nodeEnd{
+    border: 1px solid black;
+    background-color: red;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.path{
+    background-color: #e8e5e9;
+}
+.wall{
+    background-color: black;
+}
+
+/* GRID DESIGNING */
+   
+.grid-row{
+    display: flex;
+}
+.grid-box{
+    width: fit-content;
+    margin: 10px auto;
+
+}
+.mainbox{
+    display: flex;
+    padding-left: 20px;
+    margin: auto;
+}
+
+
+/* Path and visited */
+.shortestPath{
+    
+    background-color: rgb(234, 238, 11);
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+}
+.visitedPath{
+   
+    background-color: #1E90FF;
+    /* Firefox */
+    -moz-transition: all 0.2s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.2s ease-in;
+    /* Opera */
+    -o-transition: all 0.2s ease-in;
+    /* Standard */
+    transition: all 0.2s ease-in;
+}
+
+
+/*     BUTTONS     */
+.modeLink{
+    margin-left: 20px;
+}
+.btnbar{ 
+    margin: 0px !important;
+    padding: 6px 0px ;
+    width: 100vw;
+    background-color: rgb(17, 119, 106);
+    border: 2px solid black;
+}
+
+.modebtn{
+  border: none !important;
+  color: white !important;
+  background: none !important;
+  max-width: fit-content !important;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 0px 20px !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.algbtn{
+    width: 150px;
+    margin: 10px auto;
+    background-color: purple !important;
+    border: none !important;
+    }
+
+.algorithmbar{
+        margin: auto;
+        height: fit-content;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+#root {
+    background-color: #eae8eb;
+    padding: 0 !important;
+    height: 100vh;
+}
