@@ -408,7 +408,8 @@ return <>
         document.getElementById('clearTraversal').disabled=true;
         document.getElementById('eraseWall').disabled=true;  
         document.getElementById('removeWeight').disabled=true; 
-        document.getElementById('addWeight').disabled=true;    
+        document.getElementById('addWeight').disabled=true;  
+        document.getElementById('djtbutton').disabled=true;  
 
      }}  >BFS Search </button>
     
@@ -423,6 +424,7 @@ return <>
         document.getElementById('eraseWall').disabled=true;
         document.getElementById('removeWeight').disabled=true; 
         document.getElementById('addWeight').disabled=true;
+        document.getElementById('djtbutton').disabled=true;
 
     }}
     >DFS Search</button>
